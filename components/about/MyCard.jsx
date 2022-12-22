@@ -4,10 +4,10 @@ import imgAlfonso from "../../public/alfonso.jpg";
 
 const MyCard = () => {
   return (
-    <div className="flex justify-center">
-      <div className="flex flex-col md:flex-row md:max-w-xl bg-marine shadow-2xl">
+    <div className="flex justify-center m-3">
+      <div className="flex flex-col md:flex-row md:max-w-xl bg-zinc-100 shadow-dxl rounded-xl border-l-zinc-200">
         <div className="p-6 flex flex-col justify-start">
-          <p className="text-zinc-200 text-base mb-4">
+          <p className="text-marine text-base mb-4">
             Estudiante del Instituto Tecnológico de Nuevo Laredo. Curso la
             carrera de ingeniería en sistemas computacionales con especialidad
             en desarrollo avanzado de aplicaciones, he trabajado en proyectos

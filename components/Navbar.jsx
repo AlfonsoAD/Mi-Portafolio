@@ -14,15 +14,12 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="w-full bg-transparent fixed top-0 left-0 right-0 z-10">
+      <nav className="w-full bg-marine fixed top-0 left-0 right-0 z-10">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-start md:flex md:px-8">
           <div>
-            <div className="flex flex-nowrap justify-between py-3 md:py-5 md:block">
+            <div className="flex flex-nowrap justify-between p-4 md:block">
               <Link href="/">
-                {/* <h1 className="text-6xl text-zinc-100 font-bold animate-bounce">
-                  alfonso
-                </h1> */}
-                <Image src={ja} height="148" width="98" alt="ja" />
+                <Image src={ja} height="118" width="98" alt="ja" />
               </Link>
               <div className="md:hidden">
                 <button
@@ -37,31 +34,33 @@ const Navbar = () => {
           <div>
             <div
               className={`flex-1 justify-self-center pt-6 mt-8 md:block md:pb-0 md:mt-0 ${
-                navbar ? "p-12 md:p-0 block bg-words" : "hidden bg-transparent"
+                navbar
+                  ? "pt-8 md:p-0 block bg-marine-600"
+                  : "hidden bg-transparent"
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex">
-                <li className="pb-6 text-3xl font-bold text-zinc-100 py-2 md:px-6 text-center border-b-2 md:border-b-0 border-zinc-400  md:hover:text-zinc-400 md:hover:bg-transparent">
+                <li className="pb-4 text-3xl font-bold text-zinc-100 py-2 md:px-6 text-center border-b-2 md:border-b-0 border-zinc-400  md:hover:text-zinc-400 md:hover:bg-transparent">
                   <Link href="#start" onClick={clickMenu}>
                     Inicio
                   </Link>
                 </li>
-                <li className="pb-6 text-3xl font-bold text-zinc-100 py-2 md:px-6 text-center border-b-2 md:border-b-0 border-zinc-400  md:hover:text-zinc-400 md:hover:bg-transparent">
+                <li className="pb-4 text-3xl font-bold text-zinc-100 py-2 md:px-6 text-center border-b-2 md:border-b-0 border-zinc-400  md:hover:text-zinc-400 md:hover:bg-transparent">
                   <Link href="#about" onClick={clickMenu}>
-                    Acerca
+                    Yo
                   </Link>
                 </li>
-                <li className="pb-6 text-3xl font-bold text-zinc-100 py-2 md:px-6 text-center border-b-2 md:border-b-0 border-zinc-400  md:hover:text-zinc-400 md:hover:bg-transparent">
+                <li className="pb-4 text-3xl font-bold text-zinc-100 py-2 md:px-6 text-center border-b-2 md:border-b-0 border-zinc-400  md:hover:text-zinc-400 md:hover:bg-transparent">
                   <Link href="#projects" onClick={clickMenu}>
                     Proyectos
                   </Link>
                 </li>
-                <li className="pb-6 text-3xl font-bold text-zinc-100 py-2 md:px-6 text-center border-b-2 md:border-b-0 border-zinc-400  md:hover:text-zinc-400 md:hover:bg-transparent">
+                <li className="pb-4 text-3xl font-bold text-zinc-100 py-2 md:px-6 text-center border-b-2 md:border-b-0 border-zinc-400  md:hover:text-zinc-400 md:hover:bg-transparent">
                   <Link href="#techs" onClick={clickMenu}>
                     Tecnologías
                   </Link>
                 </li>
-                <li className="pb-6 text-3xl font-bold text-zinc-100 py-2 md:px-6 text-center border-b-2 md:border-b-0 border-zinc-400  md:hover:text-zinc-400 md:hover:bg-transparent">
+                <li className="pb-4 text-3xl font-bold text-zinc-100 py-2 md:px-6 text-center border-b-2 md:border-b-0 border-zinc-400  md:hover:text-zinc-400 md:hover:bg-transparent">
                   <Link href="#contact" onClick={clickMenu}>
                     Contacto
                   </Link>

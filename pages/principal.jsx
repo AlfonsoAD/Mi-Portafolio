@@ -2,7 +2,9 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Home from "../components/home/Home";
 import About from "../components/about/About";
-import Projects from "../components/proyects/Projects";
+import Projects from "../components/projects/Projects";
+import Techs from "../components/techs/Techs";
+import Contact from "../components/contact/Contact";
 
 const Principal = () => {
   return (
@@ -29,20 +31,28 @@ const Principal = () => {
         </section>
         <section
           id="projects"
-          className="text-zinc-200 h-screen text-center flex flex-wrap justify-center items-center bg-marine"
+          className="pt-16 text-zinc-200 h-screen text-center flex flex-wrap justify-center items-center bg-marine"
         >
+          <h1 className="pt-12 text-4xl font-bold text-zinc-100 md:px-6 text-center">
+            Mi portafolio
+          </h1>
           <Projects />
         </section>
-        <section id="techs" className=" text-zinc-200 h-screen flex bg-marine">
-          <h1 className="m-auto text-7xl text-zinc-200 font-bold">
-            Tecnologías
+        <section className=" text-zinc-200 h-screen flex flex-wrap justify-center items-center bg-marine"></section>
+        <section
+          id="techs"
+          className=" text-zinc-200 h-screen flex flex-wrap justify-center items-center bg-marine"
+        >
+          <h1 className="pt-28 text-4xl font-bold text-zinc-100 md:px-6 text-center">
+            Tecnologías que práctico
           </h1>
+          <Techs />
         </section>
         <section
           id="contact"
-          className=" text-zinc-200 h-screen flex bg-marine"
+          className=" text-zinc-200 h-screen flex flex-wrap justify-center items-center bg-marine"
         >
-          <h1 className="m-auto text-7xl text-zinc-200 font-bold">Contacto</h1>
+          <Contact />
         </section>
       </div>
     </>
