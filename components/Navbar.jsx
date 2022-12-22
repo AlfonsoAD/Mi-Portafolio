@@ -2,8 +2,8 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import ja from "../public/ja.png";
-import MenuHamburger from "./menuHamburger";
-import ButtonClose from "./ButtonClose";
+import MenuHamburger from "../components/MenuHamburger";
+import ButtonClose from "../components/ButtonClose";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);

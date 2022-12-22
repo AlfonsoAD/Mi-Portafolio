@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import html from "../../public/techs/html.png";
-import js from "../../public/techs/js.png";
 
 const ProjectCard = ({ title, image, project, repo, logosTechs }) => {
   return (
