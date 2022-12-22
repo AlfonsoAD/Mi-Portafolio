@@ -12,7 +12,7 @@ const Techs = () => {
             height="98"
             width="98"
             alt="logo"
-            className="m-2 p-2 shadow-xl hover:animate-bounce"
+            className="m-2 p-2 shadow-xl hover:animate-bounce bg-marine-400"
           />
         );
       })}

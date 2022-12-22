@@ -24,7 +24,7 @@ const Contact = () => {
           width="56"
           alt="logo"
         />
-        <h1 className="text-3xl font-semibold text-zinc-100 hover:text-marine-400 m-4">
+        <h1 className="text-lg font-semibold text-zinc-100 hover:text-marine-400 m-4">
           andrajesus2015@gmail.com
         </h1>
       </div>
