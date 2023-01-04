@@ -22,21 +22,21 @@ const projects = [
       "https://user-images.githubusercontent.com/90345024/209050313-74bbc01c-476e-4815-8adc-3dc26098355a.png",
     ],
   },
-  {
-    nameProject: "J2A Liga MX",
-    previeImage:
-      "https://user-images.githubusercontent.com/90345024/208875870-796b84d4-8ab7-48d6-8f09-f3b48aebb0f4.png",
-    linkProject: "https://j2aligamx.vercel.app/",
-    linkRepo: "https://github.com/AlfonsoAD/Cliente2aligamx.git",
-    techs: [
-      "https://user-images.githubusercontent.com/90345024/209050177-d1fc0d37-204f-46e3-b820-1fbbf4c1e2aa.png",
-      "https://user-images.githubusercontent.com/90345024/209051019-4b821575-0726-456e-84b7-51882e17e9a5.png",
-      "https://user-images.githubusercontent.com/90345024/209051110-38ed3c0c-9cf5-4a3e-a2ff-2d814a06c22d.png",
-      "https://user-images.githubusercontent.com/90345024/209051182-3b5e26a0-33aa-4b99-9864-a0f92a6df2ff.png",
-      "https://user-images.githubusercontent.com/90345024/209050313-74bbc01c-476e-4815-8adc-3dc26098355a.png",
-      "https://user-images.githubusercontent.com/90345024/209050248-f576570f-e1f8-4bbc-91ad-69a7ba0bef52.png",
-    ],
-  },
+  // {
+  //   nameProject: "J2A Liga MX",
+  //   previeImage:
+  //     "https://user-images.githubusercontent.com/90345024/208875870-796b84d4-8ab7-48d6-8f09-f3b48aebb0f4.png",
+  //   linkProject: "https://j2aligamx.vercel.app/",
+  //   linkRepo: "https://github.com/AlfonsoAD/Cliente2aligamx.git",
+  //   techs: [
+  //     "https://user-images.githubusercontent.com/90345024/209050177-d1fc0d37-204f-46e3-b820-1fbbf4c1e2aa.png",
+  //     "https://user-images.githubusercontent.com/90345024/209051019-4b821575-0726-456e-84b7-51882e17e9a5.png",
+  //     "https://user-images.githubusercontent.com/90345024/209051110-38ed3c0c-9cf5-4a3e-a2ff-2d814a06c22d.png",
+  //     "https://user-images.githubusercontent.com/90345024/209051182-3b5e26a0-33aa-4b99-9864-a0f92a6df2ff.png",
+  //     "https://user-images.githubusercontent.com/90345024/209050313-74bbc01c-476e-4815-8adc-3dc26098355a.png",
+  //     "https://user-images.githubusercontent.com/90345024/209050248-f576570f-e1f8-4bbc-91ad-69a7ba0bef52.png",
+  //   ],
+  // },
   {
     nameProject: "Divisas app",
     previeImage:
